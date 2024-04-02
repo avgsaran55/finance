@@ -1,0 +1,251 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'poppin',sans-serif;
+}
+.container{
+    width: 100%; 
+    min-width:600px;
+}
+.navbar{
+    height:70px;
+    font-weight:bold;
+    font-size:15px;
+    background-color:#fcf9f9;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar span{
+    display:flex;
+    flex-direction:row;
+    gap:10px;
+    font-size:20px;
+}
+.navbar span i{
+    background-color:rgb(27, 170, 70);
+    padding:20px;
+    border-radius:50%;
+    align-content:center;
+}
+.navbar ul,li{
+    display:inline;
+    list-style-type:none;
+}
+.navbar li{
+    padding:25px 20px;
+}
+.navbar li:hover{
+    background-color: rgb(41, 180, 41);
+}
+.navbar li:hover a{
+    background-color: rgb(41, 180, 41);
+    color:#fff;
+}
+.navbar ul li a{
+    color:black;
+    text-decoration:none;
+    text-transform: UpperCase;
+}
+.home{
+    width:100%;
+    height:90vh;
+}
+.home img{
+    width:100%;
+    height:90vh;
+}
+.home .ideas {
+    width:300px;
+    position:absolute;
+    top:200px;
+    left:100px;
+    display:grid;
+    row-gap:25px;
+}
+.ideas p{
+    color:#fff;
+    font-size:30px;
+    font-weight:bold ;
+}
+.home .ideas .button .green{
+    padding:10px;
+    border:0;
+    color:#fff;
+    background-color: rgb(51, 160, 69);
+}
+.ideas .button .black{
+    padding:10px;
+    border:0;
+    color:#fff;
+    background-color: black;
+}
+.about{
+    width:100%;
+    padding:70px 100px;
+    background-color: #fcf9f9;
+    display: flex;
+    justify-content: space-between;
+}
+.about .relative{
+    width:350px;
+    height:300px;
+    position:relative;
+}
+.photo img{
+    width:350px;
+    height:300px;
+}
+.photo .para{
+    text-transform:uppercase;
+    word-spacing:5px;
+    width:300px;
+    padding:15px;
+    color:#fff;
+    background-color: rgb(55, 61, 70);
+    position:absolute;
+    bottom:20px;
+    right:25px;
+    opacity:0.8;
+    display:flex;
+    justify-content: space-between;
+}
+.service{
+    background-color: #e6dddd;
+    padding:50px 100px;
+}
+.service h2{
+    text-transform:capitalize;
+}
+.service .ser{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.ser .accum{
+    width:350px;
+    padding:30px 0;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.ser .accum i{
+    float:left;
+    width:40px;
+    height:40px;
+    padding:10px;
+    color:#fff;
+    background-color: rgb(24, 161, 77);
+    transform: rotate(45deg);
+    border-radius:5px;
+}
+.ser .accum .ser-content{
+    display:grid;
+    row-gap:15px;
+}
+.project{
+    padding:50px 100px;
+}
+.pro{
+    padding: 20px 0;
+}
+.pro img{
+    width:365px;
+    height:300px;
+}
+.call-back{
+    padding:50px 100px;
+    background-color: #413d3d;
+    display: flex;
+    justify-content:space-between;
+}
+.tcontent{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    row-gap:20px;
+}
+.tcontent h4{
+    text-transform:uppercase;
+    text-align: right;
+}
+.tcontent small{
+    text-align:right;
+    color:#b9aaaa;
+}
+.en-form{
+    width:700px;
+}
+.en-form p small{
+    color:#b9aaaa;
+}
+.form{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap:15px;
+    column-gap:10px;
+}
+.en-form .form input{
+    width:280px;
+    height:40px;
+    padding:10px;
+    background-color: #d8cece;
+    border:2px solid #424040;
+    outline:0;
+}
+.input_field.error input{
+    border-color:red;
+}
+.en-form .form button{
+    padding: 10px 15px;
+    background-color: rgb(27, 177, 72);
+    border:0;
+    color:white;
+}
+.en-form .form button:active{
+    color:green;
+}
+.news{
+    padding: 50px 100px;
+}
+.latest{
+    padding: 10px 0;
+    display: flex;
+    justify-content:space-between;
+}
+.paper {
+    width:350px;
+}
+.paper img{
+    width:350px;
+    height:300px;
+}
+.paper .pa-con{
+    padding: 15px;
+    background-color: #eceaea;
+}
+.las-paper{
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    row-gap:48px;
+}
+.paper .order{
+    width:100%;
+}
+.order img{
+    width:80px;
+    height: 50px;
+}
+.order .ord-con{
+    float:right;
+    padding-right: 20px;
+}
+.order .ord-con h5{
+    padding-bottom: 5px;
+}
+.order .ord-con small{
+    padding-top: 5px;
+    color: #cbacd4;
+}
